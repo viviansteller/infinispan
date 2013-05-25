@@ -54,6 +54,10 @@
       <module-def name="org.infinispan.cachestore.remote" slot="${infinispan.slot}">
          <maven-resource group="org.infinispan" artifact="infinispan-cachestore-remote" />
       </module-def>
+      
+      <module-def name="org.infinispan.client.hotrod" slot="${infinispan.slot}">
+         <maven-resource group="org.infinispan" artifact="infinispan-client-hotrod" />
+      </module-def>
 
       <module-def name="org.infinispan.tree" slot="${infinispan.slot}">
          <maven-resource group="org.infinispan" artifact="infinispan-tree" />
